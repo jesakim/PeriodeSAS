@@ -13,7 +13,6 @@ int main()
        if(fa*fm<=0) b=m;
        else a=m;
     }
-    fa=a*a*a+12*a*a+1;
-    printf("%.5f %.5f\n",a,fa);
+    printf("la solution de l'équation x3+12x2+1=0 dans l'intervalle [-15,-10] est :%.5f\n",a);
     return 0;
 }
