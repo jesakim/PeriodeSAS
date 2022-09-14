@@ -48,7 +48,7 @@ int main(){
     for (i=0;i<nbr;i++)printf("%d ",tab[i]);
     triFusion(0,nbr-1,tab,tmp);
 
-    printf("\nvotre tableau non trier est :");
+    printf("\nvotre tableau trier est :");
     for(i=0;i<nbr;i++)  {
         printf("%d ",tab[i]);
   }
